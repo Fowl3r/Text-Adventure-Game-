@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Escape to the Observatory!!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel ="stylesheet" type="text/css" href = "styles.css">
+</head>
+<body>
+    <div class="container-lg" style="background-color: rgba(35, 225, 231, 0.753); text-align: center;" >
+        <div id = "Title" style="text-align: center; font-size:x-large;"> Escape to the Observatory!!</div>
+        <h5>Can you battle your way through beasts and secrets to reach the Observatory and warn Earth of an alien contact?</h5>
+        <p>Welcome Adventurer! I hope you're ready to save the world? </p>
+        <br>
+        <button onclick="startGame()" type="button" class="btn btn-success" id="imReady" style ="background-color:#ffc107 ; display: inline; " >I'm Ready!</button>
+        <br>
+        <div id="game" style="display: none;" > </div>
+        <br>
+        <p id = "textarea" style="display: none;"> here </p>
+        <br>
+        <input type="text" id="command" name="command" style="background-color: #ffc107; text-align: center; color: rgb(95, 21, 192); display: none;"> 
+        <br>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
